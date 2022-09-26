@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Weather App </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer> define </script>
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <form id="search">
+        <input type="text" class="search-bar" placeholder="search" id="query" value="">
+        <button type="submit">
+          <i class="fa fa-search"> </i>
+        </button>
+      </form>
+    </div>
+    <div class="weather">
+      <h2 class="city" id="city"> Weather in Dhaka </h2>
+      <h1 class="temp" id="temp"> 31°C </h1>
+      <div class="flex">
+        <img src="" alt="" class="icon">
+        <div class="description" id="description"> Cloudy </div>
+      </div>
+      <div class="humidity" id="humidity"> Humidity: 70% </div>
+      <div class="wind" id="wind"> Wind speed: 5 km/h </div>
+    </div>
+  </div>
+</body>
